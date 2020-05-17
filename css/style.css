@@ -16,6 +16,19 @@ a:hover {
     color: #e38f42;
 }
 
+h3 {
+    color: #000;
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
+}
+
+.primary-text-color {
+    color: #888;
+}
+
 .secondary-text-color {
     color: #c2c2c2;
 }
@@ -104,7 +117,23 @@ a:hover {
     width: 100%;
 }
 
+/* Contact section styles */
+
+#contact {
+    background-color: #f8f8f8;
+}
+
 @media (max-width: 992px) {
+
+
+    section {
+        padding: 60px 0;
+    }
+
+    h3 {
+        margin-top: 25px;
+    }
+
     .main.header {
         margin-top: 50px;
     }
